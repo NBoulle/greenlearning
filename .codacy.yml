@@ -1,0 +1,10 @@
+---
+engines:
+  duplication:
+    enabled: true
+    exclude_paths:
+      - 'examples/**'
+exclude_paths:
+  - 'main.py'
+  - 'README.md'
+  - 'docs/**'
