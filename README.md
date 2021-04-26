@@ -2,7 +2,7 @@
 
 [![Documentation Status](https://readthedocs.org/projects/greenlearning/badge/?version=latest)](https://greenlearning.readthedocs.io/en/latest/?badge=latest)
 
-GreenLearning is a deep learning library based on Tensorflow for learning [Green's functions](https://en.wikipedia.org/wiki/Green%27s_function) associated to systems of 1D linear [Ordinary Differential Equations (ODEs)](https://en.wikipedia.org/wiki/Ordinary_differential_equation).
+GreenLearning is a deep learning library based on Tensorflow for learning [Green's functions](https://en.wikipedia.org/wiki/Green%27s_function) associated with [partial differential operators](https://en.wikipedia.org/wiki/Differential_operator).
 
 | ![laplace_rational.png](docs/images/laplace.png) | 
 |:--:| 
@@ -22,7 +22,7 @@ The library is maintained by [Nicolas Boullé](https://people.maths.ox.ac.uk/bou
 
 ## Features
 
-- GreenLearning learns Green's functions and homogeneous solutions associated to 1D linear ODEs with deep learning.
+- GreenLearning learns Green's functions and homogeneous solutions associated with scalar and systems of linearized partial differential equations in 1D and 2D with deep learning.
 - [Rational neural networks](https://proceedings.neurips.cc/paper/2020/file/a3f390d88e4c41f2747bfa2f1b5f87db-Paper.pdf) are implemented and used to increase the accuracy of the learned Green's functions.
 - GreenLearning requires no hyperparameter tuning to successfully learn Green's functions.
 - The neural networks can be created and trained easily with a few lines of code.
