@@ -8,7 +8,7 @@ GreenLearning is a deep learning library based on Tensorflow for learning [Green
 |:--:| 
 | *Exact and learned Green’s function of the Laplace operator..* |
 
-Bellow is an example of the Green's function of a second-order differential operator with variable coefficients learned by `GreenLearning`.
+Below is an example of the Green's function of a second-order differential operator with variable coefficients learned by `GreenLearning`.
 
 | ![laplace_rational.png](docs/images/variable_coeffs_rational.png) | 
 |:--:| 
@@ -16,7 +16,7 @@ Bellow is an example of the Green's function of a second-order differential oper
 
 See [https://greenlearning.readthedocs.io/en/latest/gallery.html](https://greenlearning.readthedocs.io/en/latest/gallery.html) for more examples.
 
-The library is maintained by [Nicolas Boullé](https://people.maths.ox.ac.uk/boulle/). If you are interested in using it, do not hesitate to get in contact at `boulle@maths.ox.ac.uk`.
+The library is maintained by [Nicolas Boullé](https://people.maths.ox.ac.uk/boulle/). If you are interested in using it, do not hesitate to get in contact with him at `boulle@maths.ox.ac.uk`.
 
 **Documentation**: [ReadTheDocs](https://greenlearning.readthedocs.io/)
 
