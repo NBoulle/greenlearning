@@ -3,3 +3,5 @@
 __pycache__/
 docs/_build/
 GreenLearning.egg-info/
+
+dist/
