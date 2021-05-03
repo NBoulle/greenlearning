@@ -62,9 +62,9 @@ Please cite the following papers if you are using GreenLearning.
 
 - About GreenLearning:
 ```
-@article{boulle2021mechanistic,
-title={Mechanistic understanding with Greens functions and deep learning},
-author={Boull{\'e}, Nicolas and Earl, Christopher J. and Townsend, Alex,
+@article{boulle2021data,
+title={Data-driven discovery of physical laws with human-understandable deep learning},
+author={Boull{\'e}, Nicolas and Earls, Christopher J. and Townsend, Alex,
 journal={arXiv preprint arXiv:},
 year={2021}
 }
