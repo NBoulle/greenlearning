@@ -2,7 +2,9 @@
 
 [![Documentation Status](https://readthedocs.org/projects/greenlearning/badge/?version=latest)](https://greenlearning.readthedocs.io) [![PyPI version fury.io](https://badge.fury.io/py/GreenLearning.svg)](https://pypi.python.org/pypi/GreenLearning/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4656020.svg)](https://doi.org/10.5281/zenodo.4656020)
 
-GreenLearning is a deep learning library based on Tensorflow for learning [Green's functions](https://en.wikipedia.org/wiki/Green%27s_function) associated with [partial differential operators](https://en.wikipedia.org/wiki/Differential_operator).
+GreenLearning is a deep learning library based on Tensorflow for learning [Green's functions](https://en.wikipedia.org/wiki/Green%27s_function) associated with [partial differential operators](https://en.wikipedia.org/wiki/Differential_operator). 
+
+Additional datasets are available on [Zenodo](https://doi.org/10.5281/zenodo.4656020).
 
 | ![laplace_rational.png](docs/images/laplace.png) | 
 |:--:| 
