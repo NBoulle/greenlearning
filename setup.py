@@ -10,14 +10,14 @@ with open("requirements.txt", "r") as f:
 
 setup(
     name="GreenLearning",
-    version="1.0.0",
+    version="1.0",
     description="Deep learning library for learning Green's functions",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Nicolas Boulle",
     author_email="boulle@maths.ox.ac.uk",
     url="https://github.com/NBoulle/greenlearning",
-    download_url="https://github.com/NBoulle/greenlearning/tarball/v1.0.0",
+    download_url="https://github.com/NBoulle/greenlearning/tarball/v1.0",
     license="Apache-2.0",
     install_requires=install_requires,
     classifiers=[
