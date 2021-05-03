@@ -1,6 +1,6 @@
 # GreenLearning
 
-[![Documentation Status](https://readthedocs.org/projects/greenlearning/badge/?version=latest)](https://greenlearning.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/greenlearning/badge/?version=latest)](https://greenlearning.readthedocs.io)
 
 GreenLearning is a deep learning library based on Tensorflow for learning [Green's functions](https://en.wikipedia.org/wiki/Green%27s_function) associated with [partial differential operators](https://en.wikipedia.org/wiki/Differential_operator).
 
