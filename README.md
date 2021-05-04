@@ -1,19 +1,19 @@
 # GreenLearning
 
-[![Documentation Status](https://readthedocs.org/projects/greenlearning/badge/?version=latest)](https://greenlearning.readthedocs.io) [![PyPI version fury.io](https://badge.fury.io/py/GreenLearning.svg)](https://pypi.python.org/pypi/GreenLearning/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4656020.svg)](https://doi.org/10.5281/zenodo.4656020)
+[![Documentation Status](https://readthedocs.org/projects/greenlearning/badge/?version=latest)](https://greenlearning.readthedocs.io) [![PyPI version fury.io](https://badge.fury.io/py/GreenLearning.svg)](https://pypi.python.org/pypi/GreenLearning/) [![Anaconda-Server Badge](https://anaconda.org/conda-forge/greenlearning/badges/version.svg)](https://anaconda.org/conda-forge/greenlearning) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4656020.svg)](https://doi.org/10.5281/zenodo.4656020)
 
 GreenLearning is a deep learning library based on Tensorflow for learning [Green's functions](https://en.wikipedia.org/wiki/Green%27s_function) associated with [partial differential operators](https://en.wikipedia.org/wiki/Differential_operator). 
 
 Additional datasets are available on [Zenodo](https://doi.org/10.5281/zenodo.4656020).
 
-| ![laplace_rational.png](docs/images/laplace.png) | 
-|:--:| 
+| ![laplace_rational.png](docs/images/laplace.png) |
+|:--:|
 | *Exact and learned Green’s function of the Laplace operator..* |
 
 Below is an example of the Green's function of a second-order differential operator with variable coefficients learned by `GreenLearning`.
 
-| ![laplace_rational.png](docs/images/variable_coeffs_rational.png) | 
-|:--:| 
+| ![laplace_rational.png](docs/images/variable_coeffs_rational.png) |
+|:--:|
 | *Learned Green’s function of a second order ODE with variable coefficients.* |
 
 See [https://greenlearning.readthedocs.io/en/latest/gallery.html](https://greenlearning.readthedocs.io/en/latest/gallery.html) for more examples.
