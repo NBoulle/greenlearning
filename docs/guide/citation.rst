@@ -7,7 +7,7 @@ Please cite the following papers if you are using GreenLearning.
 
      @article{boulle2021data,
        title={Data-driven discovery of physical laws with human-understandable deep learning},
-       author={Boull{\'e}, Nicolas and Earl, Christopher J. and Townsend, Alex,
+       author={Boull{\'e}, Nicolas and Earls, Christopher J. and Townsend, Alex,
        journal={arXiv preprint arXiv:2105.00266},
        year={2021}
      }
