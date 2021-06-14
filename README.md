@@ -16,7 +16,7 @@ Below is an example of the Green's function of a second-order differential opera
 |:--:|
 | *Learned Green’s function of a second order ODE with variable coefficients.* |
 
-See [https://greenlearning.readthedocs.io/en/latest/gallery.html](https://greenlearning.readthedocs.io/en/latest/gallery.html) for more examples.
+See [https://greenlearning.readthedocs.io/en/latest/guide/gallery.html](https://greenlearning.readthedocs.io/en/latest/guide/gallery.html) for more examples.
 
 The library is maintained by [Nicolas Boullé](https://people.maths.ox.ac.uk/boulle/). If you are interested in using it, do not hesitate to get in contact with him at `boulle@maths.ox.ac.uk`.
 
