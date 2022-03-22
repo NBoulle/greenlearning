@@ -5,12 +5,15 @@ Please cite the following papers if you are using GreenLearning.
 
 - About GreenLearning::
 
-     @article{boulle2021data,
-       title={Data-driven discovery of physical laws with human-understandable deep learning},
+    @article{boulle2022data,
+       title={Data-driven discovery of Green's functions with human-understandable deep learning},
        author={Boull{\'e}, Nicolas and Earls, Christopher J. and Townsend, Alex,
-       journal={arXiv preprint arXiv:2105.00266},
-       year={2021}
-     }
+       journal={Scientific Reports},
+       volume={12},
+       pages={4824},
+       year={2022},
+       doi={10.1038/s41598-022-08745-5}
+    }
 
 - About Rational neural networks::
 
