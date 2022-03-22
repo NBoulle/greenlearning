@@ -7,7 +7,7 @@ Please cite the following papers if you are using GreenLearning.
 
     @article{boulle2022data,
        title={Data-driven discovery of Green's functions with human-understandable deep learning},
-       author={Boull{\'e}, Nicolas and Earls, Christopher J. and Townsend, Alex,
+       author={Boull{\'e}, Nicolas and Earls, Christopher J. and Townsend, Alex},
        journal={Scientific Reports},
        volume={12},
        pages={4824},
