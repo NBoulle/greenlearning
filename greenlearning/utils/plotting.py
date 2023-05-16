@@ -30,7 +30,12 @@ pgf_with_latex = {                      # setup matplotlib to use latex for outp
         r"\usepackage[T1]{fontenc}",        # plots will be generated using this preamble
         ]
     }
-mpl.rcParams.update(pgf_with_latex)
+
+# Try using latex font
+try:
+    mpl.rcParams.update(pgf_with_latex)
+except:
+    pass
 
 import matplotlib.pyplot as plt
 
