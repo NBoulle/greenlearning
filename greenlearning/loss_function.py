@@ -37,8 +37,8 @@ class loss_function:
         Lu = []
         Lf = []
         for i in range(d):
-            xG = tf.reshape(tf.repeat(tf.reshape(self.xU[:,i], (1, Nu)), Nf, 0), (Nu*Nf,1))
-            yG = tf.reshape(tf.repeat(tf.reshape(self.xF[:,i], (Nf, 1)), Nu, 1), (Nu*Nf,1))
+            xG = tf.reshape(tf.tile(tf.reshape(self.xU[:,i], (1, Nu)), [Nf, 1]), (Nu*Nf,1))
+            yG = tf.reshape(tf.tile(tf.reshape(self.xF[:,i], (Nf, 1)), [1, Nu]), (Nu*Nf,1))
             Lu.append(xG)
             Lf.append(yG)
         training_G = tf.concat(Lu+Lf, 1)
@@ -75,7 +75,7 @@ class loss_function:
             self.N_output = self.N[i].evaluate(self.xU)
             
             # Difference with u
-            loss_N = tf.repeat(self.N_output, tf.shape(self.u)[1], 1)
+            loss_N = tf.tile(self.N_output, [1, tf.shape(self.u)[1]])
             relative_error = tf.divide(tf.reduce_sum(tf.multiply(self.weights_x, tf.square(self.u[:,:,i] - self.loss_i - loss_N)),0), \
                                        tf.reduce_sum(tf.multiply(self.weights_x, tf.square(self.u[:,:,i])),0))
             self.loss = self.loss + tf.reduce_mean(relative_error)
