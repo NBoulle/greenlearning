@@ -150,7 +150,7 @@ def plot_1d_systems(model):
     ax.axis('off')
     gs = gridspec.GridSpec(n_plots, n_plots)
     gs.update(top=0.8, bottom=0.2, left=0.1, right=0.9,
-              wspace=0.6*scaling, hspace=0.6 * scaling)
+              wspace=0.6 * scaling, hspace=0.6 * scaling)
 
     # Plot the Green's functions
     for i in range(model.n_output):
