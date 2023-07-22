@@ -5,7 +5,7 @@ import numpy as np
 
 
 class NeuralNetwork:
-    """Create a fully connected neural network with given number of layers and 
+    """Create a fully connected neural network with given number of layers and
     activation function.
 
     Example:
@@ -33,11 +33,11 @@ class NeuralNetwork:
         self.activation_weights = []
 
         # Loop over the number of layers
-        for l in range(0, len(self.layers)-2):
+        for layer in range(0, len(self.layers) - 2):
             # Initialize weights and biases
-            W = self.xavier_init(size=[self.layers[l], self.layers[l + 1]])
+            W = self.xavier_init(size=[self.layers[layer], self.layers[layer + 1]])
             b = tf.Variable(
-                tf.zeros([1, self.layers[l + 1]]), dtype=config.real(tf))
+                tf.zeros([1, self.layers[layer + 1]]), dtype=config.real(tf))
             self.weights.append(W)
             self.biases.append(b)
 

@@ -10,8 +10,8 @@ from .utils.external_optimizer import ScipyOptimizerInterface
 
 
 class Model:
-    """Create a model to learn Green's function from input-output data with deep
-    learning.
+    """Create a model to learn Green's function from input-output data with
+    deep learning.
 
     Example:
 
