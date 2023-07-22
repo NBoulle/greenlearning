@@ -21,4 +21,4 @@ jobs:
         pip install flake8 pylint
     - name: Lint
       run: |
-        flake8 Code/.
+        flake8 greenlearning/.
