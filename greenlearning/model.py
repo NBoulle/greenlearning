@@ -61,8 +61,8 @@ class Model:
         self.idn_N_pred = U_hom_network
 
         if self.G_network[0][0].layers[0] != 2 * self.idn_N_pred[0].layers[0]:
-            raise ValueError("First layer of G: %d must be twice larger than first layer of homogeneous network: %d." % (
-                self.G_network[0][0].layers[0], self.idn_N_pred[0].layers[0]))
+            raise ValueError("First layer of G: %d must be twice larger than first layer of homogeneous network: %d." %
+                             (self.G_network[0][0].layers[0], self.idn_N_pred[0].layers[0]))
 
         # Initialize the optimizers
         self.init_optimizer()
