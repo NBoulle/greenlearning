@@ -5,4 +5,4 @@ from .neural_network import NeuralNetwork
 from .matrix_networks import matrix_networks
 from . import utils
 
-__all__ = ["Model", "NeuralNetwork","matrix_networks","utils"]
+__all__ = ["Model", "NeuralNetwork", "matrix_networks", "utils"]

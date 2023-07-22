@@ -15,7 +15,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Nicolas Boulle",
-    author_email="boulle@maths.ox.ac.uk",
+    author_email="nb690@cam.ac.uk",
     url="https://github.com/NBoulle/greenlearning",
     download_url="https://github.com/NBoulle/greenlearning/tarball/v1.0",
     license="Apache-2.0",

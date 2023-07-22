@@ -8,8 +8,10 @@ import numpy as np
 
 from .backend import tf
 
+
 class Real(object):
     """Set the float precision in numpy and Tensorflow."""
+
     def __init__(self, precision):
         self.set_precision(precision)
 

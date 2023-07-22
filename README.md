@@ -6,19 +6,19 @@ GreenLearning is a deep learning library based on Tensorflow for learning [Green
 
 Additional datasets are available on [Zenodo](https://doi.org/10.5281/zenodo.4656020).
 
-| ![laplace_rational.png](docs/images/laplace.png) |
-|:--:|
+| ![laplace_rational.png](docs/images/laplace.png)               |
+|:--------------------------------------------------------------:|
 | *Exact and learned Green’s function of the Laplace operator..* |
 
 Below is an example of the Green's function of a second-order differential operator with variable coefficients learned by `GreenLearning`.
 
-| ![laplace_rational.png](docs/images/variable_coeffs_rational.png) |
-|:--:|
+| ![laplace_rational.png](docs/images/variable_coeffs_rational.png)            |
+|:----------------------------------------------------------------------------:|
 | *Learned Green’s function of a second order ODE with variable coefficients.* |
 
 See [https://greenlearning.readthedocs.io/en/latest/guide/gallery.html](https://greenlearning.readthedocs.io/en/latest/guide/gallery.html) for more examples.
 
-The library is maintained by [Nicolas Boullé](https://people.maths.ox.ac.uk/boulle/). If you are interested in using it, do not hesitate to get in contact with him at `boulle@maths.ox.ac.uk`.
+The library is maintained by [Nicolas Boullé](https://nboulle.github.io/). If you are interested in using it, do not hesitate to get in contact with him at `nb690@cam.ac.uk`.
 
 **Documentation**: [ReadTheDocs](https://greenlearning.readthedocs.io/)
 
@@ -44,45 +44,53 @@ GreenLearning relies on the following Python libraries:
 ### How to install GreenLearning
 
 - For users, you can install the stable version with `pip`:
-```
-pip install greenlearning
-```
-or with `conda`:
-```
-conda install -c conda-forge greenlearning
-```
+  
+  ```
+  pip install greenlearning
+  ```
+  
+  or with `conda`:
+  
+  ```
+  conda install -c conda-forge greenlearning
+  ```
 
 - For developers, you should clone the GitHub repository and install it manually on your machine::
-```
-git clone https://github.com/NBoulle/greenlearning.git
-cd greenlearning
-pip install -e.
-```
+  
+  ```
+  git clone https://github.com/NBoulle/greenlearning.git
+  cd greenlearning
+  pip install -e.
+  ```
 
 ## Citation
+
 Please cite the following papers if you are using GreenLearning.
 
 - About GreenLearning:
-```
-@article{boulle2022data,
-title={Data-driven discovery of Green's functions with human-understandable deep learning},
-author={Boull{\'e}, Nicolas and Earls, Christopher J. and Townsend, Alex},
-journal={Scientific Reports},
-volume={12},
-pages={4824},
-year={2022},
-doi={10.1038/s41598-022-08745-5}
-}
-```
+  
+  ```
+  @article{boulle2022data,
+  title={Data-driven discovery of Green's functions with human-understandable deep learning},
+  author={Boull{\'e}, Nicolas and Earls, Christopher J. and Townsend, Alex},
+  journal={Scientific Reports},
+  volume={12},
+  pages={4824},
+  year={2022},
+  doi={10.1038/s41598-022-08745-5}
+  }
+  ```
+
 - About Rational neural networks:
-```
-@inproceedings{boulle2020rational,
-title={Rational neural networks},
-author={Boull{\'e}, Nicolas and Nakatsukasa, Yuji and Townsend, Alex},
-booktitle = {Advances in Neural Information Processing Systems},
-volume = {33},
-pages = {14243--14253},
-year={2020},
-url = {https://proceedings.neurips.cc/paper/2020/file/a3f390d88e4c41f2747bfa2f1b5f87db-Paper.pdf}
-}
-```
+  
+  ```
+  @inproceedings{boulle2020rational,
+  title={Rational neural networks},
+  author={Boull{\'e}, Nicolas and Nakatsukasa, Yuji and Townsend, Alex},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume = {33},
+  pages = {14243--14253},
+  year={2020},
+  url = {https://proceedings.neurips.cc/paper/2020/file/a3f390d88e4c41f2747bfa2f1b5f87db-Paper.pdf}
+  }
+  ```

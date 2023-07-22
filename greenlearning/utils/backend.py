@@ -23,14 +23,14 @@ else:
 
 def backend():
     """Returns the name and version of the current backend, e.g., ("tensorflow", 1.14.0).
-    
+
     Returns:
         tuple: A ``tuple`` of the name and version of the backend GreenLearning is currently using.
-        
+
     Example:
-        
+
     .. code-block:: python
-    
+
         gl.utils.backend.backend()
         >>> ("tensorflow", 1.15.0)
     """
