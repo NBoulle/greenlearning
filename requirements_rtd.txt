@@ -1,3 +1,4 @@
 matplotlib
 numpy
 scipy
+sphinx-rtd-theme==1.2.2
