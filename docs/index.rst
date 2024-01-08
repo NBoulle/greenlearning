@@ -10,7 +10,7 @@ GreenLearning is a deep learning library based on Tensorflow for learning `Green
 .. |laplace| image:: images/laplace.png
    :width: 100%
 
-The library is maintained by `Nicolas Boullé <https://people.maths.ox.ac.uk/boulle/>`_. If you are interested in using it, do not hesitate to get in contact at ``boulle@maths.ox.ac.uk``.
+The library is maintained by `Nicolas Boullé <https://nboulle.github.io/>`_. If you are interested in using it, do not hesitate to get in contact at ``nb690@cam.ac.uk``.
 
 Features
 --------
